@@ -5,14 +5,15 @@
 >de datos se emplea MySQL y la comunicación entre la parte cliente y la servidora se realiza a través de un API Rest.
 
 ## Tecnologías necesarias
-`TypeScript` `JavaScript` `Angular` `Node` `Express` `Angular` `MySQL` `GitHub` `GitHub Actions` `Sonarcloud`
+`TypeScript` `JavaScript` `Node` `Express` `Angular` `MySQL` `GitHub` `GitHub Actions` `Sonarcloud`
 
 ## Estado del código
+* SonarCloud Budges: [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=acalvom_tfm-front-end&metric=alert_status)](https://sonarcloud.io/dashboard?id=acalvom_tfm-front-end)
 
 
 ## :octocat: Repositorios
-* [Front-end-angular](https://github.com/acalvom/tfm-angular)
-* [Back-end-express](https://github.com/acalvom/tfm-express)
+* [Front-end-angular](https://github.com/acalvom/tfm-front-end)
+* [Back-end-express](https://github.com/acalvom/tfm-back-end)
 
 ## :gear: Instalación del proyecto
 1. Clonar repositorios, **mediante consola**:
@@ -20,19 +21,19 @@
    * tfm-angular
 ```sh
 > cd <folder path>
-> git clone https://github.com/acalvom/tfm-angular
-> cd tfm-angular
-tfm-angular> npm install
+> git clone https://github.com/acalvom/tfm-front-end
+> cd tfm-front-end
+tfm-front-end> npm install
 ```
    * tfm-express
 ```sh
 > cd <folder path>
-> git clone https://github.com/acalvom/tfm-express
-> cd tfm-express
-tfm-express> npm install
+> git clone https://github.com/acalvom/tfm-back-end
+> cd tfm-back-end
+tfm-back-end> npm install
 ```
 
-2. Importar el proyecto `tfm-angular` & `tfm-express` mediante **WebStorm** 
+2. Importar el proyecto `tfm-front-end` & `tfm-back-end` mediante **WebStorm** 
    * **Open**, y seleccionar la carpeta del proyecto.
 
 3. Ejecución
